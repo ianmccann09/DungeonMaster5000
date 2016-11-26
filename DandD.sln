@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DandD", "DandD\DandD.csproj", "{2779D096-64CC-4BFC-A41D-0DA950621A68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{F8143414-AFDB-4B98-88CB-60294CC23E03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2779D096-64CC-4BFC-A41D-0DA950621A68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2779D096-64CC-4BFC-A41D-0DA950621A68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2779D096-64CC-4BFC-A41D-0DA950621A68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2779D096-64CC-4BFC-A41D-0DA950621A68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8143414-AFDB-4B98-88CB-60294CC23E03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8143414-AFDB-4B98-88CB-60294CC23E03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8143414-AFDB-4B98-88CB-60294CC23E03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8143414-AFDB-4B98-88CB-60294CC23E03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
