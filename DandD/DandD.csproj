@@ -94,6 +94,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DisplayDrafts.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -112,13 +113,15 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AlignmentTypes.cs" />
+    <Compile Include="Enums\AlignmentTypes.cs" />
     <Compile Include="Ability.cs" />
     <Compile Include="Character.cs" />
-    <Compile Include="ClassTypes.cs" />
-    <Compile Include="ICharacter.cs" />
+    <Compile Include="Enums\ClassTypes.cs" />
+    <Compile Include="Enums\ItemTypes.cs" />
+    <Compile Include="Interfaces\ICharacter.cs" />
+    <Compile Include="Interfaces\IItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RaceTypes.cs" />
+    <Compile Include="Enums\RaceTypes.cs" />
     <Compile Include="Skills.cs" />
   </ItemGroup>
   <PropertyGroup>
