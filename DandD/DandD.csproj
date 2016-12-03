@@ -95,6 +95,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="DisplayDrafts.html" />
+    <Content Include="Dungeon.html" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
