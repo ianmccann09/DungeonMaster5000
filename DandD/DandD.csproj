@@ -94,8 +94,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="DisplayDrafts.html" />
+    <Content Include="TextWindows.html" />
     <Content Include="Dungeon.html" />
+    <Content Include="scripts\DungeonJS.js" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
