@@ -2,10 +2,10 @@
 $dungeon.setAttribute("id", "dungeon");
 
 function dungeon(rows, columns) {
-	this.rows = rows;
-	this.columns = columns;
-	this.mapKey = createMapKey();
-	var self = this;
+	dungeon.rows = rows;
+	dungeon.columns = columns;
+	dungeon.mapKey = createMapKey();
+	console.log(dungeon.mapKey)
 	createDungeon(rows, columns);
 
 	function createMapKey() {
@@ -19,9 +19,9 @@ function dungeon(rows, columns) {
 	function createDungeon(rows, columns) {
 		for (var x = 0; x < rows; x++) {
 			var randomRow = randomizeElements(columns);
-			self.mapKey[x] = clearPaths(randomRow);
+			dungeon.mapKey[x] = clearPaths(randomRow);	
 			for (var y = 0; y < columns; y++) {
-				renderElement(self.mapKey[x][y]);
+				renderElement(dungeon.mapKey[x][y]);
 			}
 			var nextRow = document.createElement("br");
 			$dungeon.append(nextRow);
